@@ -6,5 +6,15 @@ body {
     margin: 0;
     padding: 0;
     overflow-x: hidden;
+    background-color: #d2d2d2;
 }
 
+.gradient-down {
+    -webkit-mask-image: linear-gradient(to bottom, #d2d2d2, transparent 95%);
+    mask-image: linear-gradient(to bottom, #d2d2d2, transparent 95%)
+}
+
+.gradient-up {
+    -webkit-mask-image: linear-gradient(to top, #d2d2d2, transparent 95%);
+    mask-image: linear-gradient(to top, #d2d2d2, transparent 95%)
+}
