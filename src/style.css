@@ -5,13 +5,17 @@
 body {
     margin: 0;
     padding: 0;
-    overflow-x: hidden;
-    background-color: #d2d2d2;
+    background-color: #DBDBDB;
 }
 
 .gradient-down {
     -webkit-mask-image: linear-gradient(to bottom, #d2d2d2, transparent 95%);
     mask-image: linear-gradient(to bottom, #d2d2d2, transparent 95%)
+}
+
+.gradient-down-balls {
+    -webkit-mask-image: linear-gradient(to bottom, black, transparent 99%);
+    mask-image: linear-gradient(to bottom, black, transparent 99%)
 }
 
 .gradient-up {
