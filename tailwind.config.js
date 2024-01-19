@@ -7,7 +7,11 @@ export default {
             'lp': '1025px',
             'dp': '1441px',
             },
-        extend: {}
+        extend: {
+            fontFamily: {
+                'arizona-flare': "ABCArizonaFlareVariable, system-ui, -apple-system, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif"
+           },
+        }
     },
     
     plugins: []
