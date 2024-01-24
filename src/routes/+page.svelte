@@ -43,7 +43,9 @@
         <br>
         <p>{$t("invite.p3")}</p>
         <br>
-        <p class=" text-red-500 ">{$t("invite.p4")}</p>
+        <p>{$t("invite.p4")}</p>
+        <br>
+        <p>{$t("invite.p5")}</p>
     </div>
     <div class="scale-[65%] lp:scale-75">
         <a target="_blank" href={"https://discord.gg/aUD8SSTD"}><img class="mx-auto" src="/join.png" alt=""></a>
